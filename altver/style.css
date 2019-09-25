@@ -54,7 +54,7 @@
 
 /* COMMON */
 
-[background="grey"]{
+.grey {
   background-color: #f9f9f9;
 }
 
@@ -70,6 +70,7 @@ img{
  .row {
   width: 100%;
   margin-top: 0px;
+  padding-bottom: 1px;
  }
 
  #lezioni .row > .left, #lezioni .row > .right{
@@ -87,5 +88,31 @@ img{
  img {
   height: 100px;
  }
+
+ .text{
+  color: #0069D9;
+  font-size: 1.8em;
+ }
+
+ h1 {
+  color:#363636;
+  font-size: 2.5em;
+  background: #E85C58;
+ }
+
+ h3 {
+  color: #2B86EB;
+  font-size: 2.3em;
+  background: #9EB80F;
+ }
+
+ .orange {
+  background-color: #FFAD1E;
+ }
+
+ .pink {
+  background-color: #FF6EA9
+ }
+
 
 }
